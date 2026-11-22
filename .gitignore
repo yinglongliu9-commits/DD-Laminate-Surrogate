@@ -1,0 +1,25 @@
+# Local data and generated outputs
+dataset/
+runs/
+*.pth
+*.pt
+*.ckpt
+*.onnx
+
+# Python caches and local environments
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.ipynb_checkpoints/
+
+# Credentials and local configuration
+.env
+.env.*
+!.env.example
+
+# Editor and operating-system files
+.idea/
+.vscode/
+Thumbs.db
+.DS_Store
